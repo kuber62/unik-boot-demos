@@ -1,4 +1,4 @@
-package com.uniktech.demounikboot;
+package com.uniktech.demoboot;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @RequestMapping("/")
-public class DemoUnikBootApplication {
+public class DemoBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoUnikBootApplication.class, args);
+		SpringApplication.run(DemoBootApplication.class, args);
 	}
 
 	@Value("${app.name}")

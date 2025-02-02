@@ -1,10 +1,10 @@
-package com.uniktech.demounikboot;
+package com.uniktech.demoboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoUnikBootApplicationTests {
+class DemoBootApplicationTests {
 
 	@Test
 	void contextLoads() {
